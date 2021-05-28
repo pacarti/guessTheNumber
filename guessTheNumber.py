@@ -3,7 +3,6 @@ import random
 number = random.randint(1, 100)
 countOfTries = 0
 guess = None
-print(number)
 
 while(guess != number):
     countOfTries += 1
